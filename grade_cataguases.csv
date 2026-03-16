@@ -1,0 +1,488 @@
+﻿id_grade,lat_centroide,lon_centroide,populacao,domicilios,bairro,tipo_local,zona,area_km2,municipio,cd_municipio
+1KME6165N8946,-21.20506,-42.744483,0,0,Miraí,cidade,rural,1.0006,Cataguases,3115300
+1KME6164N8946,-21.205422,-42.75413,0,0,Glória de Cataguases,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6166N8945,-21.2137,-42.734448,0,0,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8945,-21.214062,-42.744095,3,1,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6164N8945,-21.214425,-42.753742,0,0,Santa Maria,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6168N8944,-21.221977,-42.714764,0,0,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6167N8944,-21.22234,-42.724412,0,0,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8944,-21.222703,-42.734059,0,0,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8944,-21.223066,-42.743707,0,0,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6164N8944,-21.223428,-42.753354,0,0,Santa Maria,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6175N8943,-21.228429,-42.646841,0,0,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8943,-21.228794,-42.656489,0,0,Glória,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6173N8943,-21.229159,-42.666137,0,0,Glória,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6171N8943,-21.229888,-42.685432,0,0,Glória,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6170N8943,-21.230253,-42.69508,0,0,Glória,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6169N8943,-21.230616,-42.704727,5,2,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6168N8943,-21.23098,-42.714375,0,0,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6167N8943,-21.231343,-42.724023,12,6,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8943,-21.231706,-42.733671,2,1,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8943,-21.232069,-42.743318,0,0,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8943,-21.232431,-42.752966,0,0,Glória de Cataguases,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6176N8942,-21.237066,-42.636802,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8942,-21.237432,-42.64645,0,0,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8942,-21.237797,-42.656098,0,0,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8942,-21.238163,-42.665746,0,0,Glória,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6172N8942,-21.238527,-42.675394,0,0,Glória,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6171N8942,-21.238892,-42.685041,0,0,Glória,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6170N8942,-21.239256,-42.69469,5,1,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8942,-21.23962,-42.704338,8,3,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6168N8942,-21.239983,-42.713986,4,2,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6167N8942,-21.240347,-42.723634,2,1,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8942,-21.24071,-42.733282,2,1,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8942,-21.241072,-42.74293,0,0,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8942,-21.241435,-42.752578,0,0,Jaguara,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6178N8941,-21.245337,-42.617113,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8941,-21.245704,-42.626762,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8941,-21.24607,-42.63641,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8941,-21.246435,-42.646058,3,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8941,-21.246801,-42.655706,0,0,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8941,-21.247166,-42.665354,4,1,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8941,-21.247531,-42.675003,0,0,Glória,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6171N8941,-21.247895,-42.684651,0,0,Glória,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6170N8941,-21.24826,-42.694299,14,9,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8941,-21.248624,-42.703948,0,0,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6168N8941,-21.248987,-42.713596,9,4,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6167N8941,-21.24935,-42.723245,0,0,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8941,-21.249713,-42.732893,14,5,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8941,-21.250076,-42.742541,10,4,Carangola,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6164N8941,-21.250438,-42.75219,0,0,Jaguara,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8941,-21.250801,-42.761839,5,1,Jaguara,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6180N8940,-21.253607,-42.597424,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6179N8940,-21.253974,-42.607072,0,0,Santana de Cataguases,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6178N8940,-21.254341,-42.616721,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8940,-21.254707,-42.626369,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8940,-21.255073,-42.636018,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8940,-21.255439,-42.645666,5,2,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8940,-21.255805,-42.655315,7,2,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8940,-21.25617,-42.664963,6,1,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8940,-21.256535,-42.674612,21,8,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6171N8940,-21.256899,-42.684261,15,6,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6170N8940,-21.257264,-42.693909,28,10,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8940,-21.257627,-42.703558,0,0,Santa Maria,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6168N8940,-21.257991,-42.713207,4,2,Carangola,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6167N8940,-21.258354,-42.722855,2,1,Carangola,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8940,-21.258717,-42.732504,11,5,Carangola,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8940,-21.25908,-42.742153,13,7,Carangola,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6164N8940,-21.259442,-42.751802,11,4,Jaguara,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8940,-21.259805,-42.761451,6,3,Jaguara,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6180N8939,-21.262611,-42.59703,1,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6179N8939,-21.262978,-42.606679,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8939,-21.263345,-42.616328,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8939,-21.263711,-42.625977,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8939,-21.264077,-42.635625,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8939,-21.264443,-42.645274,3,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8939,-21.264809,-42.654923,0,0,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8939,-21.265174,-42.664572,0,0,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8939,-21.265539,-42.674221,16,6,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6171N8939,-21.265903,-42.68387,21,10,Joaquim Vieira,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6170N8939,-21.266268,-42.693519,4,3,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8939,-21.266632,-42.703168,0,0,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8939,-21.266995,-42.712817,1,1,Cataguarino,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6167N8939,-21.267359,-42.722466,18,7,Carangola,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8939,-21.267722,-42.732115,8,3,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8939,-21.268084,-42.741764,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8939,-21.268447,-42.751414,2,1,Jaguara,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8939,-21.268809,-42.761063,0,0,Jaguara,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6179N8938,-21.271982,-42.606286,6,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8938,-21.272349,-42.615935,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8938,-21.272715,-42.625584,7,3,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8938,-21.273082,-42.635233,0,0,Palmares,bairro,rural,1.0007,Cataguases,3115300
+1KME6175N8938,-21.273447,-42.644882,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8938,-21.273813,-42.654532,20,7,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8938,-21.274178,-42.664181,13,5,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8938,-21.274543,-42.67383,0,0,Joaquim Vieira,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6171N8938,-21.274908,-42.68348,40,8,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6170N8938,-21.275272,-42.693129,8,4,Glória de Cataguases,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8938,-21.275636,-42.702778,0,0,Cataguarino,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6168N8938,-21.276,-42.712428,0,0,Cataguarino,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6167N8938,-21.276363,-42.722077,9,4,Cataguarino,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6166N8938,-21.276726,-42.731726,3,1,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8938,-21.277089,-42.741376,7,3,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8938,-21.277451,-42.751025,18,5,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6163N8938,-21.277813,-42.760675,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6162N8938,-21.278175,-42.770325,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6161N8938,-21.278537,-42.779974,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6160N8938,-21.278898,-42.789624,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6178N8937,-21.281353,-42.615542,2,1,Santana de Cataguases,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6177N8937,-21.28172,-42.625192,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8937,-21.282086,-42.634841,8,2,Palmares,bairro,rural,1.0007,Cataguases,3115300
+1KME6175N8937,-21.282452,-42.644491,0,0,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8937,-21.282817,-42.65414,2,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8937,-21.283183,-42.66379,3,1,Glória de Cataguases,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8937,-21.283548,-42.673439,4,1,Joaquim Vieira,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6171N8937,-21.283912,-42.683089,13,3,Joaquim Vieira,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6170N8937,-21.284276,-42.692739,4,1,Joaquim Vieira,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6169N8937,-21.28464,-42.702388,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8937,-21.285004,-42.712038,0,0,Cataguarino,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6167N8937,-21.285368,-42.721688,3,1,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6166N8937,-21.285731,-42.731338,6,3,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8937,-21.286093,-42.740987,3,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8937,-21.286456,-42.750637,3,2,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6163N8937,-21.286818,-42.760287,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6162N8937,-21.28718,-42.769937,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6161N8937,-21.287541,-42.779587,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6178N8936,-21.290358,-42.615149,4,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8936,-21.290724,-42.624799,5,2,Palmares,bairro,rural,1.0007,Cataguases,3115300
+1KME6176N8936,-21.291091,-42.634449,8,5,Palmares,bairro,rural,1.0007,Cataguases,3115300
+1KME6175N8936,-21.291457,-42.644099,0,0,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8936,-21.291822,-42.653749,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8936,-21.292187,-42.663398,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8936,-21.292552,-42.673048,39,16,Centro,bairro,rural,1.0006,Cataguases,3115300
+1KME6171N8936,-21.292917,-42.682698,25,7,Centro,bairro,rural,1.0006,Cataguases,3115300
+1KME6170N8936,-21.293281,-42.692348,29,4,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8936,-21.293645,-42.701998,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8936,-21.294009,-42.711648,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6167N8936,-21.294372,-42.721299,75,29,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6166N8936,-21.294735,-42.730949,305,127,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8936,-21.295098,-42.740599,0,0,Cataguarino,distrito rural,rural,1.0006,Cataguases,3115300
+1KME6164N8936,-21.295461,-42.750249,0,0,Cataguarino,distrito rural,rural,1.0005,Cataguases,3115300
+1KME6163N8936,-21.295823,-42.759899,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6180N8935,-21.298629,-42.595456,14,4,Santana de Cataguases,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6176N8935,-21.300095,-42.634057,20,5,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8935,-21.300461,-42.643707,4,2,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8935,-21.300827,-42.653357,6,4,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8935,-21.301192,-42.663007,7,4,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8935,-21.301557,-42.672658,26,11,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6171N8935,-21.301922,-42.682308,2,1,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6170N8935,-21.302286,-42.691958,6,2,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8935,-21.30265,-42.701608,5,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8935,-21.303014,-42.711259,6,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6167N8935,-21.303377,-42.720909,2,1,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6166N8935,-21.303741,-42.73056,55,18,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8935,-21.304103,-42.74021,2,1,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8935,-21.304466,-42.749861,4,2,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6163N8935,-21.304828,-42.759511,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6177N8934,-21.308734,-42.624014,26,10,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8934,-21.309101,-42.633664,5,3,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6175N8934,-21.309467,-42.643315,141,52,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8934,-21.309832,-42.652965,175,67,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6173N8934,-21.310197,-42.662616,10,3,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8934,-21.310562,-42.672267,6,3,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6171N8934,-21.310927,-42.681917,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6170N8934,-21.311291,-42.691568,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8934,-21.311656,-42.701219,14,5,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8934,-21.312019,-42.710869,3,1,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6167N8934,-21.312383,-42.72052,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6166N8934,-21.312746,-42.730171,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8934,-21.313109,-42.739822,5,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6189N8933,-21.31332,-42.507813,0,0,Aracati de Minas,distrito urbano,rural,1.0009,Cataguases,3115300
+1KME6164N8934,-21.313471,-42.749472,0,0,Cataguarino,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6163N8934,-21.313833,-42.759123,0,0,Cataguarino,distrito rural,rural,1.0005,Cataguases,3115300
+1KME6162N8934,-21.314195,-42.768774,0,0,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6176N8933,-21.318106,-42.633272,10,3,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8933,-21.318472,-42.642923,983,345,Quilombo dos Palmares,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8933,-21.318837,-42.652574,346,141,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8933,-21.319203,-42.662225,2,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8933,-21.319568,-42.671876,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6171N8933,-21.319933,-42.681527,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6170N8933,-21.320297,-42.691178,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8933,-21.320661,-42.700829,2,1,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8933,-21.321025,-42.71048,19,3,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6167N8933,-21.321388,-42.720131,8,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6166N8933,-21.321751,-42.729782,5,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6165N8933,-21.322114,-42.739433,7,2,Campinas,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6164N8933,-21.322477,-42.749084,0,0,Cataguarino,distrito rural,rural,1.0005,Cataguases,3115300
+1KME6188N8932,-21.322696,-42.517067,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6163N8933,-21.322839,-42.758735,0,0,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8933,-21.323201,-42.768386,0,0,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6176N8932,-21.327111,-42.63288,7,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8932,-21.327477,-42.642531,1,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8932,-21.327843,-42.652182,139,43,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6173N8932,-21.328208,-42.661833,0,0,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6172N8932,-21.328573,-42.671485,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6171N8932,-21.328938,-42.681136,1,1,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6170N8932,-21.329303,-42.690787,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8932,-21.329667,-42.700439,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8932,-21.330031,-42.71009,3,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6167N8932,-21.330394,-42.719741,0,0,Areia Branca,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8932,-21.330757,-42.729393,0,0,Sinimbu,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8932,-21.33112,-42.739044,6,2,Sinimbu,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6164N8932,-21.331483,-42.748696,0,0,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6188N8931,-21.331701,-42.516671,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6163N8932,-21.331845,-42.758347,0,0,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6187N8931,-21.332071,-42.526322,9,3,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6162N8932,-21.332207,-42.767999,0,0,Dona Euzébia,distrito rural,rural,1.0005,Cataguases,3115300
+1KME6186N8931,-21.33244,-42.535973,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6185N8931,-21.332809,-42.545625,0,0,Santana de Cataguases,distrito rural,rural,1.0008,Cataguases,3115300
+1KME6176N8931,-21.336117,-42.632487,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8931,-21.336483,-42.642139,0,0,Sereno,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6174N8931,-21.336849,-42.65179,3,2,Centro,bairro,rural,1.0007,Cataguases,3115300
+1KME6173N8931,-21.337214,-42.661442,11,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6172N8931,-21.337579,-42.671093,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6171N8931,-21.337944,-42.680745,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6170N8931,-21.338309,-42.690397,0,0,Sereno,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6169N8931,-21.338673,-42.700048,0,0,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6168N8931,-21.339036,-42.7097,7,2,Cataguarino,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6167N8931,-21.3394,-42.719352,0,0,Areia Branca,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6166N8931,-21.339763,-42.729004,0,0,Campinas,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8931,-21.340126,-42.738655,5,3,Sinimbu,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6164N8931,-21.340489,-42.748307,5,2,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8931,-21.340851,-42.757959,0,0,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6186N8930,-21.341446,-42.535578,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6185N8930,-21.341815,-42.545229,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8930,-21.342184,-42.554881,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6176N8930,-21.345123,-42.632095,4,1,Santana de Cataguases,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6175N8930,-21.345489,-42.641747,9,2,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8930,-21.345855,-42.651399,3,2,Sereno,distrito urbano,urbana,1.0007,Cataguases,3115300
+1KME6173N8930,-21.34622,-42.66105,35,11,Sereno,distrito urbano,urbana,1.0007,Cataguases,3115300
+1KME6172N8930,-21.346585,-42.670702,4,2,Ponte Alta,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6171N8930,-21.34695,-42.680354,4,1,Ponte Alta,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6170N8930,-21.347315,-42.690006,0,0,Ponte Alta,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6169N8930,-21.347679,-42.699658,3,1,Cataguarino,distrito urbano,urbana,1.0006,Cataguases,3115300
+1KME6168N8930,-21.348043,-42.70931,4,1,Cataguarino,distrito urbano,urbana,1.0006,Cataguases,3115300
+1KME6167N8930,-21.348406,-42.718962,11,3,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6166N8930,-21.348769,-42.728615,0,0,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6165N8930,-21.349132,-42.738267,1,1,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6164N8930,-21.349495,-42.747919,9,4,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8930,-21.349857,-42.757571,17,8,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8930,-21.350219,-42.767223,12,4,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6186N8929,-21.350452,-42.535182,1,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6185N8929,-21.350821,-42.544834,1,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8929,-21.35119,-42.554486,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8929,-21.351559,-42.564138,2,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8929,-21.351927,-42.57379,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8929,-21.352662,-42.593094,2,1,Santana de Cataguases,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6179N8929,-21.35303,-42.602746,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8929,-21.353396,-42.612398,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8929,-21.353763,-42.62205,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8929,-21.354129,-42.631702,2,1,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8929,-21.354496,-42.641355,10,2,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8929,-21.354861,-42.651007,2,1,Sereno,distrito urbano,urbana,1.0007,Cataguases,3115300
+1KME6173N8929,-21.355227,-42.660659,87,33,Ponte Alta,localidade rural,urbana,1.0007,Cataguases,3115300
+1KME6172N8929,-21.355592,-42.670311,26,9,Ponte Alta,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6171N8929,-21.355957,-42.679964,0,0,Ponte Alta,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6170N8929,-21.356321,-42.689616,2,1,Sebastião Adolfo,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8929,-21.356685,-42.699268,1,1,Cataguarino,distrito urbano,urbana,1.0006,Cataguases,3115300
+1KME6168N8929,-21.357049,-42.708921,0,0,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6167N8929,-21.357413,-42.718573,19,5,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6166N8929,-21.357776,-42.728225,0,0,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6165N8929,-21.358139,-42.737878,0,0,Sinimbu,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6164N8929,-21.358501,-42.74753,0,0,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8929,-21.358864,-42.757183,10,6,Sinimbu,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8929,-21.359226,-42.766835,36,8,Dona Euzébia,distrito rural,rural,1.0005,Cataguases,3115300
+1KME6161N8929,-21.359587,-42.776488,0,0,Dona Euzébia,distrito rural,rural,1.0005,Cataguases,3115300
+1KME6185N8928,-21.359827,-42.544438,2,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8928,-21.360196,-42.554091,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8928,-21.360565,-42.563743,8,5,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8928,-21.360933,-42.573395,4,2,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8928,-21.361301,-42.583048,8,3,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8928,-21.361669,-42.5927,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6179N8928,-21.362036,-42.602352,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8928,-21.362403,-42.612005,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8928,-21.36277,-42.621657,4,2,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8928,-21.363136,-42.63131,0,0,Sereno,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8928,-21.363502,-42.640962,4,2,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8928,-21.363868,-42.650615,30,9,Hermenegildo Marote,bairro,urbana,1.0007,Cataguases,3115300
+1KME6173N8928,-21.364233,-42.660268,259,96,São Diniz,bairro,urbana,1.0007,Cataguases,3115300
+1KME6172N8928,-21.364598,-42.66992,629,243,São Diniz,bairro,urbana,1.0006,Cataguases,3115300
+1KME6171N8928,-21.364963,-42.679573,593,245,Sebastião Adolfo,bairro,urbana,1.0006,Cataguases,3115300
+1KME6170N8928,-21.365328,-42.689225,292,113,Sebastião Adolfo,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8928,-21.365692,-42.698878,3,1,Cataguarino,distrito urbano,urbana,1.0006,Cataguases,3115300
+1KME6168N8928,-21.366056,-42.708531,15,4,Jardim Bandeirantes I,bairro,urbana,1.0006,Cataguases,3115300
+1KME6167N8928,-21.366419,-42.718184,18,5,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6166N8928,-21.366783,-42.727836,0,0,Barão de Camargos,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6165N8928,-21.367145,-42.737489,0,0,Sinimbu,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6164N8928,-21.367508,-42.747142,11,3,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8928,-21.36787,-42.756795,0,0,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8928,-21.368232,-42.766448,19,4,São Manoel do Guaiaçu,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6186N8927,-21.368465,-42.53439,3,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8928,-21.368594,-42.776101,0,0,Dona Euzébia,distrito rural,rural,1.0005,Cataguases,3115300
+1KME6185N8927,-21.368834,-42.544043,4,2,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8927,-21.369203,-42.553696,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8927,-21.369571,-42.563348,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8927,-21.36994,-42.573001,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8927,-21.370308,-42.582654,7,2,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8927,-21.370675,-42.592306,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6179N8927,-21.371043,-42.601959,13,6,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8927,-21.37141,-42.611612,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8927,-21.371776,-42.621265,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8927,-21.372143,-42.630917,1,1,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6175N8927,-21.372509,-42.64057,63,23,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8927,-21.372874,-42.650223,6,2,Hermenegildo Marote,bairro,urbana,1.0007,Cataguases,3115300
+1KME6173N8927,-21.37324,-42.659876,2,1,São João,bairro,urbana,1.0007,Cataguases,3115300
+1KME6172N8927,-21.373605,-42.669529,581,221,Hermenegildo Marote,bairro,urbana,1.0006,Cataguases,3115300
+1KME6171N8927,-21.37397,-42.679182,3154,1250,São Sebastião,bairro,urbana,1.0006,Cataguases,3115300
+1KME6170N8927,-21.374334,-42.688835,4660,1789,Pouso Alegre,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8927,-21.374699,-42.698488,4084,1571,Jardim Bandeirantes I,bairro,urbana,1.0006,Cataguases,3115300
+1KME6168N8927,-21.375063,-42.708141,2197,883,Horto Florestal,bairro,urbana,1.0006,Cataguases,3115300
+1KME6167N8927,-21.375426,-42.717794,15,4,Alto Belém,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6166N8927,-21.375789,-42.727447,6,2,Imê Farage,bairro,urbana,1.0006,Cataguases,3115300
+1KME6165N8927,-21.376152,-42.7371,6,2,Imê Farage,bairro,urbana,1.0006,Cataguases,3115300
+1KME6164N8927,-21.376515,-42.746753,12,3,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8927,-21.376877,-42.756407,14,5,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8927,-21.377239,-42.76606,29,10,São Manoel do Guaiaçu,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6186N8926,-21.377472,-42.533995,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8927,-21.377601,-42.775713,5,2,São Manoel do Guaiaçu,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6185N8926,-21.377841,-42.543647,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8926,-21.37821,-42.5533,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8926,-21.378578,-42.562953,11,3,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8926,-21.378946,-42.572606,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8926,-21.379314,-42.582259,3,2,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8926,-21.379682,-42.591912,1,1,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6179N8926,-21.380049,-42.601566,3,2,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8926,-21.380416,-42.611219,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8926,-21.380783,-42.620872,3,2,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8926,-21.38115,-42.630525,8,3,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8926,-21.381516,-42.640178,73,31,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8926,-21.381881,-42.649831,0,0,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6173N8926,-21.382247,-42.659485,0,0,São João,bairro,urbana,1.0007,Cataguases,3115300
+1KME6172N8926,-21.382612,-42.669138,2,1,São João,bairro,urbana,1.0006,Cataguases,3115300
+1KME6171N8926,-21.382977,-42.678791,325,129,José Gabriel de Passos,bairro,urbana,1.0006,Cataguases,3115300
+1KME6170N8926,-21.383342,-42.688444,3780,1632,Bela Vista,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8926,-21.383706,-42.698098,4022,1614,Morada da Serra,bairro,urbana,1.0006,Cataguases,3115300
+1KME6168N8926,-21.38407,-42.707751,6004,2246,Izabel Tavares,bairro,urbana,1.0006,Cataguases,3115300
+1KME6167N8926,-21.384433,-42.717405,215,72,Imê Farage,bairro,urbana,1.0006,Cataguases,3115300
+1KME6166N8926,-21.384797,-42.727058,16,5,Imê Farage,bairro,urbana,1.0006,Cataguases,3115300
+1KME6165N8926,-21.38516,-42.736711,0,0,Ana Carrara,bairro,urbana,1.0006,Cataguases,3115300
+1KME6164N8926,-21.385522,-42.746365,18,8,Barão de Camargos,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8926,-21.385885,-42.756018,37,17,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6187N8925,-21.386109,-42.523945,2,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6162N8926,-21.386247,-42.765672,29,12,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6186N8925,-21.386478,-42.533599,7,3,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8926,-21.386608,-42.775326,3,1,São Manoel do Guaiaçu,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6185N8925,-21.386848,-42.543252,2,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8925,-21.387217,-42.552905,10,4,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8925,-21.387585,-42.562558,2,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8925,-21.387953,-42.572212,4,2,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8925,-21.388321,-42.581865,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8925,-21.388689,-42.591519,2,2,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6179N8925,-21.389057,-42.601172,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8925,-21.389424,-42.610825,0,0,Aracati de Minas,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6177N8925,-21.38979,-42.620479,5,2,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8925,-21.390157,-42.630132,0,0,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8925,-21.390523,-42.639786,3,1,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8925,-21.390889,-42.649439,0,0,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6173N8925,-21.391254,-42.659093,0,0,Hermenegildo Marote,bairro,urbana,1.0007,Cataguases,3115300
+1KME6172N8925,-21.391619,-42.668747,1,1,Vila São José,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6171N8925,-21.391984,-42.6784,2010,766,Antônio Justino,bairro,urbana,1.0006,Cataguases,3115300
+1KME6170N8925,-21.392349,-42.688054,2299,996,Vila Tereza,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8925,-21.392713,-42.697708,2836,1125,Jardim,bairro,urbana,1.0006,Cataguases,3115300
+1KME6168N8925,-21.393077,-42.707361,5120,1964,Centenário,bairro,urbana,1.0006,Cataguases,3115300
+1KME6167N8925,-21.393441,-42.717015,721,248,Ana Carrara,bairro,urbana,1.0006,Cataguases,3115300
+1KME6166N8925,-21.393804,-42.726669,16,6,Ana Carrara,bairro,urbana,1.0006,Cataguases,3115300
+1KME6165N8925,-21.394167,-42.736323,12,5,Barão de Camargos,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6164N8925,-21.39453,-42.745976,40,17,Barão de Camargos,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6163N8925,-21.394892,-42.75563,34,12,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6187N8924,-21.395116,-42.523549,12,3,Laranjal,distrito rural,rural,1.0008,Cataguases,3115300
+1KME6162N8925,-21.395254,-42.765284,19,6,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6186N8924,-21.395486,-42.533203,16,7,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8925,-21.395616,-42.774938,19,7,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6185N8924,-21.395855,-42.542856,10,4,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8924,-21.396224,-42.55251,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8924,-21.396592,-42.562164,5,2,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8924,-21.396961,-42.571817,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8924,-21.397329,-42.581471,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8924,-21.397696,-42.591125,0,0,Aracati de Minas,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6179N8924,-21.398064,-42.600778,4,2,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8924,-21.398431,-42.610432,2,1,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8924,-21.398798,-42.620086,0,0,Lajinha,localidade rural,rural,1.0007,Cataguases,3115300
+1KME6176N8924,-21.399164,-42.62974,0,0,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6175N8924,-21.39953,-42.639394,0,0,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6174N8924,-21.399896,-42.649048,15,7,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8924,-21.400262,-42.658701,6,2,São João,bairro,urbana,1.0007,Cataguases,3115300
+1KME6172N8924,-21.400627,-42.668355,1672,563,São Vicente,bairro,urbana,1.0006,Cataguases,3115300
+1KME6171N8924,-21.400992,-42.678009,266,96,Antônio Justino,bairro,urbana,1.0006,Cataguases,3115300
+1KME6170N8924,-21.401356,-42.687663,669,241,Beira Rio,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8924,-21.401721,-42.697317,3284,1246,Chácara Paraíso,bairro,urbana,1.0006,Cataguases,3115300
+1KME6168N8924,-21.402085,-42.706971,718,271,Primavera,bairro,urbana,1.0006,Cataguases,3115300
+1KME6167N8924,-21.402448,-42.716625,910,332,Bonsucesso,bairro,urbana,1.0006,Cataguases,3115300
+1KME6166N8924,-21.402812,-42.72628,79,25,Ana Carrara,bairro,urbana,1.0006,Cataguases,3115300
+1KME6165N8924,-21.403175,-42.735934,6,3,Barão de Camargos,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6164N8924,-21.403537,-42.745588,1,1,Barão de Camargos,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6163N8924,-21.4039,-42.755242,0,0,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8924,-21.404262,-42.764896,0,0,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6186N8923,-21.404493,-42.532807,10,5,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8924,-21.404624,-42.77455,13,5,Pedra Linda,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6185N8923,-21.404862,-42.542461,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6184N8923,-21.405231,-42.552115,1,1,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8923,-21.4056,-42.561769,2,1,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8923,-21.405968,-42.571423,0,0,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8923,-21.406336,-42.581077,4,2,Aracati de Minas,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8923,-21.406704,-42.590731,18,8,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6179N8923,-21.407071,-42.600385,2,1,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6178N8923,-21.407438,-42.610039,1,1,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6177N8923,-21.407805,-42.619693,89,28,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6176N8923,-21.408172,-42.629347,9,2,Hermenegildo Marote,bairro,rural,1.0007,Cataguases,3115300
+1KME6175N8923,-21.408538,-42.639001,3,1,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6174N8923,-21.408904,-42.648656,17,6,Aracati de Minas,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6173N8923,-21.409269,-42.65831,13,4,Aracati de Minas,distrito urbano,urbana,1.0007,Cataguases,3115300
+1KME6172N8923,-21.409635,-42.667964,2163,796,Taquara Preta,bairro,urbana,1.0006,Cataguases,3115300
+1KME6171N8923,-21.409999,-42.677618,1022,365,Taquara Preta,bairro,urbana,1.0006,Cataguases,3115300
+1KME6170N8923,-21.410364,-42.687273,3389,1256,São Pedro,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8923,-21.410728,-42.696927,913,325,Chácara Paraíso,bairro,urbana,1.0006,Cataguases,3115300
+1KME6168N8923,-21.411092,-42.706581,23,9,Primavera,bairro,urbana,1.0006,Cataguases,3115300
+1KME6167N8923,-21.411456,-42.716236,2,1,Bonsucesso,bairro,urbana,1.0006,Cataguases,3115300
+1KME6166N8923,-21.411819,-42.72589,9,2,Barão de Camargos,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6165N8923,-21.412182,-42.735545,14,5,Barão de Camargos,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6164N8923,-21.412545,-42.745199,3,2,Barão de Camargos,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6163N8923,-21.412908,-42.754854,1,1,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8923,-21.41327,-42.764508,0,0,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6186N8922,-21.413501,-42.532411,6,2,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8923,-21.413632,-42.774163,10,2,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6185N8922,-21.41387,-42.542065,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6160N8923,-21.413993,-42.783817,11,6,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6184N8922,-21.414239,-42.551719,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6183N8922,-21.414608,-42.561374,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8922,-21.414976,-42.571028,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8922,-21.415344,-42.580682,3,1,Vista Alegre,distrito rural,rural,1.0008,Cataguases,3115300
+1KME6180N8922,-21.415712,-42.590337,11,4,Vista Alegre,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8922,-21.417546,-42.638609,0,0,Lajinha,localidade rural,rural,1.0007,Cataguases,3115300
+1KME6174N8922,-21.417912,-42.648264,0,0,Valão,localidade rural,rural,1.0007,Cataguases,3115300
+1KME6173N8922,-21.418277,-42.657918,0,0,Taquara Preta,bairro,urbana,1.0007,Cataguases,3115300
+1KME6172N8922,-21.418642,-42.667573,0,0,Valão,localidade rural,urbana,1.0006,Cataguases,3115300
+1KME6171N8922,-21.419007,-42.677227,1244,444,Taquara Preta,bairro,urbana,1.0006,Cataguases,3115300
+1KME6170N8922,-21.419372,-42.686882,445,148,Ibraim Mendonça,bairro,urbana,1.0006,Cataguases,3115300
+1KME6169N8922,-21.419736,-42.696537,20,10,Ibraim Mendonça,bairro,urbana,1.0006,Cataguases,3115300
+1KME6168N8922,-21.4201,-42.706191,0,0,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6167N8922,-21.420464,-42.715846,3,1,Bonsucesso,bairro,rural,1.0006,Cataguases,3115300
+1KME6166N8922,-21.420827,-42.725501,3,1,Barão de Camargos,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8922,-21.421191,-42.735156,3,1,Piacatuba,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8922,-21.421553,-42.744811,0,0,Piacatuba,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6163N8922,-21.421916,-42.754465,8,5,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8922,-21.422278,-42.76412,0,0,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6186N8921,-21.422509,-42.532015,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8922,-21.42264,-42.773775,2,1,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6185N8921,-21.422878,-42.541669,1,1,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6160N8922,-21.423001,-42.78343,2,1,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6184N8921,-21.423247,-42.551324,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6159N8922,-21.423363,-42.793085,4,2,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6183N8921,-21.423616,-42.560979,2,1,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8921,-21.423984,-42.570633,5,2,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8921,-21.424352,-42.580288,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6175N8921,-21.426554,-42.638217,0,0,Aracati de Minas,distrito rural,rural,1.0007,Cataguases,3115300
+1KME6174N8921,-21.42692,-42.647872,4,1,Leopoldina,cidade,rural,1.0007,Cataguases,3115300
+1KME6173N8921,-21.427285,-42.657527,0,0,Leopoldina,cidade,rural,1.0007,Cataguases,3115300
+1KME6172N8921,-21.427651,-42.667182,36,14,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6171N8921,-21.428016,-42.676836,0,0,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6170N8921,-21.42838,-42.686491,7,2,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6169N8921,-21.428745,-42.696146,4,1,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6168N8921,-21.429109,-42.705802,0,0,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6165N8921,-21.430199,-42.734767,14,4,Piacatuba,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6164N8921,-21.430562,-42.744422,1,1,Piacatuba,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6163N8921,-21.430924,-42.754077,10,3,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6162N8921,-21.431286,-42.763732,0,0,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6161N8921,-21.431648,-42.773388,5,2,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6185N8920,-21.431886,-42.541274,7,4,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6160N8921,-21.43201,-42.783043,25,11,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6184N8920,-21.432255,-42.550929,8,2,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6159N8921,-21.432371,-42.792698,9,4,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6183N8920,-21.432624,-42.560584,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6182N8920,-21.432992,-42.570239,6,2,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8920,-21.43336,-42.579894,0,0,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6180N8920,-21.433728,-42.589549,6,3,Vista Alegre,distrito urbano,rural,1.0007,Cataguases,3115300
+1KME6175N8920,-21.435562,-42.637824,0,0,Leopoldina,cidade,rural,1.0007,Cataguases,3115300
+1KME6174N8920,-21.435928,-42.64748,1,1,Leopoldina,cidade,rural,1.0007,Cataguases,3115300
+1KME6171N8920,-21.437024,-42.676445,8,3,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6170N8920,-21.437389,-42.686101,0,0,Valão,localidade rural,rural,1.0006,Cataguases,3115300
+1KME6169N8920,-21.437753,-42.695756,10,2,Piacatuba,distrito urbano,rural,1.0006,Cataguases,3115300
+1KME6162N8920,-21.440295,-42.763344,2,1,Caridade,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6161N8920,-21.440657,-42.773,11,4,Caridade,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6160N8920,-21.441018,-42.782655,11,5,Caridade,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6159N8920,-21.44138,-42.792311,11,3,Engenho,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6182N8919,-21.442,-42.569844,3,1,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6181N8919,-21.442369,-42.579499,9,3,Vista Alegre,distrito urbano,rural,1.0008,Cataguases,3115300
+1KME6161N8919,-21.449666,-42.772612,4,1,Caridade,localidade rural,rural,1.0005,Cataguases,3115300
+1KME6160N8919,-21.450027,-42.782268,0,0,Piacatuba,distrito urbano,rural,1.0005,Cataguases,3115300
+1KME6160N8918,-21.459036,-42.781881,0,0,Piacatuba,distrito urbano,rural,1.0005,Cataguases,3115300
