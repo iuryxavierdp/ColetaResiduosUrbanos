@@ -27,30 +27,30 @@
         
         .info-panel {
             position: absolute;
-            top: 20px;
-            left: 20px;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-            max-width: 300px;
+            top: 10px;
+            left: 10px;
+            background: #ffffff;
+            padding: 16px 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+            max-width: 280px;
             z-index: 1;
-            backdrop-filter: blur(10px);
         }
         
         .info-panel h2 {
-            margin: 0 0 15px 0;
-            font-size: 20px;
-            color: #1a1a2e;
-            font-weight: 700;
+            margin: 0 0 12px 0;
+            font-size: 16px;
+            color: #202124;
+            font-weight: 500;
+            letter-spacing: -0.2px;
         }
         
         .stat {
             display: flex;
             justify-content: space-between;
-            margin: 10px 0;
-            padding: 10px 0;
-            border-bottom: 1px solid #e0e0e0;
+            margin: 8px 0;
+            padding: 6px 0;
+            border-bottom: 1px solid #e8eaed;
         }
         
         .stat:last-child {
@@ -58,34 +58,35 @@
         }
         
         .stat-label {
-            font-weight: 500;
-            color: #666;
-            font-size: 14px;
+            font-weight: 400;
+            color: #5f6368;
+            font-size: 13px;
         }
         
         .stat-value {
-            font-weight: 700;
-            color: #333;
-            font-size: 14px;
+            font-weight: 500;
+            color: #202124;
+            font-size: 13px;
         }
         
         .legend {
             position: absolute;
-            bottom: 40px;
-            right: 20px;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 18px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            bottom: 30px;
+            right: 10px;
+            background: #ffffff;
+            padding: 14px 16px;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.3);
             z-index: 1;
-            backdrop-filter: blur(10px);
+            min-width: 200px;
         }
         
         .legend h3 {
-            margin: 0 0 12px 0;
-            font-size: 15px;
-            color: #1a1a2e;
-            font-weight: 600;
+            margin: 0 0 10px 0;
+            font-size: 13px;
+            color: #202124;
+            font-weight: 500;
+            letter-spacing: -0.2px;
         }
         
         .legend-item {
@@ -105,46 +106,74 @@
         
         .popup-content {
             font-size: 13px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
         
         .popup-content h3 {
-            margin: 0 0 10px 0;
-            font-size: 15px;
-            color: #1a1a2e;
-            font-weight: 600;
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            color: #202124;
+            font-weight: 500;
+            letter-spacing: -0.2px;
         }
         
         .popup-row {
             display: flex;
             justify-content: space-between;
-            margin: 6px 0;
-            padding: 4px 0;
+            margin: 5px 0;
+            padding: 3px 0;
         }
         
         .popup-label {
-            font-weight: 500;
-            color: #666;
+            font-weight: 400;
+            color: #5f6368;
+            font-size: 12px;
         }
         
         .popup-value {
-            font-weight: 700;
-            color: #333;
+            font-weight: 500;
+            color: #202124;
+            font-size: 12px;
+        }
+        
+        /* Customizar popups do Mapbox */
+        .mapboxgl-popup-content {
+            padding: 12px 16px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.25) !important;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+        }
+        
+        .mapboxgl-popup-tip {
+            border-top-color: #ffffff !important;
+        }
+        
+        .mapboxgl-popup-close-button {
+            font-size: 20px !important;
+            color: #5f6368 !important;
+            padding: 4px 8px !important;
+            right: 4px !important;
+            top: 4px !important;
+        }
+        
+        .mapboxgl-popup-close-button:hover {
+            background-color: #f1f3f4 !important;
+            border-radius: 4px !important;
         }
         
         .controls {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 18px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            top: 10px;
+            right: 10px;
+            background: #ffffff;
+            padding: 14px 16px;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.3);
             z-index: 1;
-            backdrop-filter: blur(10px);
         }
         
         .control-group {
-            margin-bottom: 12px;
+            margin-bottom: 10px;
         }
         
         .control-group:last-child {
@@ -154,34 +183,40 @@
         .control-group label {
             display: flex;
             align-items: center;
-            font-size: 14px;
+            font-size: 13px;
             cursor: pointer;
-            font-weight: 500;
-            color: #333;
+            font-weight: 400;
+            color: #202124;
+            user-select: none;
         }
         
         .control-group input[type="checkbox"] {
-            margin-right: 10px;
-            width: 18px;
-            height: 18px;
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
             cursor: pointer;
+            accent-color: #1a73e8;
         }
         
         .slider-group {
-            margin-top: 12px;
-            padding-top: 12px;
-            border-top: 1px solid #e0e0e0;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #e8eaed;
         }
         
         .slider-group label {
             display: block;
-            font-size: 13px;
-            color: #666;
-            margin-bottom: 8px;
+            font-size: 12px;
+            color: #5f6368;
+            margin-bottom: 6px;
+            font-weight: 400;
         }
         
         .slider-group input[type="range"] {
             width: 100%;
+            height: 4px;
+            cursor: pointer;
+            accent-color: #333;
         }
     </style>
 </head>
@@ -189,17 +224,17 @@
     <div id="map"></div>
     
     <div class="info-panel">
-        <h2>Cataguases/MG</h2>
+        <h2><center>Cataguases/MG</center></h2>
         <div class="stat">
-            <span class="stat-label">Células do Grid</span>
+            <span class="stat-label">Células do Grid:</span>
             <span class="stat-value" id="total-cells">-</span>
         </div>
         <div class="stat">
-            <span class="stat-label">População Total</span>
+            <span class="stat-label">População Total:</span>
             <span class="stat-value" id="total-pop">-</span>
         </div>
         <div class="stat">
-            <span class="stat-label">Domicílios</span>
+            <span class="stat-label">Domicílios:</span>
             <span class="stat-value" id="total-dom">-</span>
         </div>
         <div class="stat">
@@ -223,8 +258,8 @@
         </div>
         <div class="control-group">
             <label>
-                <input type="checkbox" id="toggle-labels">
-                <span>Rótulos População</span>
+                <input type="checkbox" id="toggle-labels-pop">
+                <span>Mostrar População</span>
             </label>
         </div>
         <div class="slider-group">
@@ -235,29 +270,32 @@
     
     <div class="legend">
         <h3>População por Célula</h3>
-        <div class="legend-item">
-            <div class="legend-color" style="background: rgba(255, 255, 255, 0.8); border: 1px solid #ccc;"></div>
-            <span>0 habitantes</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: rgba(255, 237, 160, 0.8);"></div>
-            <span>1 - 10</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: rgba(254, 217, 118, 0.8);"></div>
-            <span>11 - 50</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: rgba(254, 178, 76, 0.85);"></div>
-            <span>51 - 100</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: rgba(253, 141, 60, 0.85);"></div>
-            <span>101 - 500</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: rgba(240, 59, 32, 0.9);"></div>
-            <span>> 500</span>
+        <div style="margin-top: 10px;">
+            <div style="display: flex; height: 20px; border-radius: 4px; overflow: hidden; margin-bottom: 8px;">
+                <div style="flex: 1; background: rgba(255, 255, 255, 0.9); border: 1px solid #ccc;"></div>
+                <div style="flex: 1; background: rgba(255, 252, 230, 0.9);"></div>
+                <div style="flex: 1; background: rgba(255, 250, 205, 0.9);"></div>
+                <div style="flex: 1; background: rgba(255, 240, 180, 0.9);"></div>
+                <div style="flex: 1; background: rgba(255, 237, 160, 0.9);"></div>
+                <div style="flex: 1; background: rgba(255, 228, 140, 0.9);"></div>
+                <div style="flex: 1; background: rgba(255, 220, 120, 0.9);"></div>
+                <div style="flex: 1; background: rgba(254, 217, 118, 0.9);"></div>
+                <div style="flex: 1; background: rgba(254, 205, 105, 0.9);"></div>
+                <div style="flex: 1; background: rgba(254, 195, 100, 0.9);"></div>
+                <div style="flex: 1; background: rgba(254, 178, 76, 0.9);"></div>
+                <div style="flex: 1; background: rgba(253, 165, 70, 0.9);"></div>
+                <div style="flex: 1; background: rgba(253, 150, 65, 0.9);"></div>
+                <div style="flex: 1; background: rgba(253, 141, 60, 0.9);"></div>
+                <div style="flex: 1; background: rgba(252, 125, 55, 0.9);"></div>
+                <div style="flex: 1; background: rgba(240, 100, 50, 0.9);"></div>
+                <div style="flex: 1; background: rgba(230, 80, 45, 0.9);"></div>
+                <div style="flex: 1; background: rgba(220, 60, 40, 0.9);"></div>
+                <div style="flex: 1; background: rgba(200, 30, 30, 0.9);"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: #666;">
+                <span>0</span>
+                <span>> 6000</span>
+            </div>
         </div>
     </div>
 
@@ -312,13 +350,18 @@
                     'fill-color': [
                         'case',
                         ['==', ['get', 'populacao'], 0], 'rgba(255, 255, 255, 0.3)',
-                        ['<=', ['get', 'populacao'], 10], 'rgba(255, 237, 160, 0.5)',
-                        ['<=', ['get', 'populacao'], 50], 'rgba(254, 217, 118, 0.5)',
-                        ['<=', ['get', 'populacao'], 100], 'rgba(254, 178, 76, 0.5)',
-                        ['<=', ['get', 'populacao'], 500], 'rgba(253, 141, 60, 0.5)',
-                        'rgba(240, 59, 32, 0.5)'
-                    ],
-                    'fill-opacity': 1.0
+                        ['<=', ['get', 'populacao'], 50], 'rgba(255, 252, 230, 0.5)',
+                        ['<=', ['get', 'populacao'], 100], 'rgba(255, 250, 205, 0.5)',
+                        ['<=', ['get', 'populacao'], 200], 'rgba(255, 237, 160, 0.5)',
+                        ['<=', ['get', 'populacao'], 500], 'rgba(255, 220, 120, 0.5)',
+                        ['<=', ['get', 'populacao'], 1000], 'rgba(254, 217, 118, 0.5)',
+                        ['<=', ['get', 'populacao'], 2000], 'rgba(254, 195, 100, 0.5)',
+                        ['<=', ['get', 'populacao'], 3000], 'rgba(254, 178, 76, 0.5)',
+                        ['<=', ['get', 'populacao'], 4000], 'rgba(253, 150, 65, 0.5)',
+                        ['<=', ['get', 'populacao'], 5000], 'rgba(253, 141, 60, 0.5)',
+                        ['<=', ['get', 'populacao'], 6000], 'rgba(240, 100, 50, 0.5)',
+                        'rgba(200, 30, 30, 0.5)'
+                    ]
                 }
             });
             
@@ -333,15 +376,17 @@
                 }
             });
 
+            // Rótulos de população (☺ centralizado)
             map.addLayer({
-                id: 'grid-labels',
+                id: 'grid-labels-pop',
                 type: 'symbol',
                 source: 'grid',
                 filter: ['>', ['get', 'populacao'], 0],
                 layout: {
-                    'text-field': ['to-string', ['get', 'populacao']],
+                    'text-field': ['concat', '☺', ['to-string', ['get', 'populacao']]],
                     'text-size': 10,
                     'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
+                    'text-anchor': 'center',
                     'visibility': 'none'
                 },
                 paint: {
@@ -370,19 +415,19 @@
                     <div class="popup-content">
                         <h3>${props.bairro}</h3>
                         <div class="popup-row">
-                            <span class="popup-label">Bairro:</span>
+                            <span class="popup-label">🏙️Bairro:</span>
                             <span class="popup-value">${props.bairro}</span>
                         </div>
                         <div class="popup-row">
-                            <span class="popup-label">População:</span>
+                            <span class="popup-label">👥População:</span>
                             <span class="popup-value">${props.populacao}</span>
                         </div>
                         <div class="popup-row">
-                            <span class="popup-label">Domicílios:</span>
+                            <span class="popup-label">🏠Domicílios:</span>
                             <span class="popup-value">${props.domicilios}</span>
                         </div>
                         <div class="popup-row">
-                            <span class="popup-label">Tipo:</span>
+                            <span class="popup-label">📊Tipo:</span>
                             <span class="popup-value">${props.tipo_local}</span>
                         </div>
                         <!--
@@ -419,15 +464,35 @@
                 map.setLayoutProperty('municipio-border', 'visibility', visibility);
             });
             
-            document.getElementById('toggle-labels').addEventListener('change', (e) => {
+            document.getElementById('toggle-labels-pop').addEventListener('change', (e) => {
                 const visibility = e.target.checked ? 'visible' : 'none';
-                map.setLayoutProperty('grid-labels', 'visibility', visibility);
+                map.setLayoutProperty('grid-labels-pop', 'visibility', visibility);
             });
             
             document.getElementById('opacity-slider').addEventListener('input', (e) => {
-                const opacity = e.target.value / 100;
-                document.getElementById('opacity-value').textContent = e.target.value + '%';
-                map.setPaintProperty('grid-fill', 'fill-opacity', opacity);
+                const sliderValue = e.target.value;
+                document.getElementById('opacity-value').textContent = sliderValue + '%';
+                
+                // Mapear 50% = opacidade padrão (0.5 nas cores)
+                // 0-50% = diminui opacidade (0 a 0.5)
+                // 50-100% = aumenta opacidade e saturação (0.5 a 1.0)
+                const baseOpacity = sliderValue / 100;
+                
+                map.setPaintProperty('grid-fill', 'fill-color', [
+                    'case',
+                    ['==', ['get', 'populacao'], 0], `rgba(255, 255, 255, ${Math.max(0.3, baseOpacity * 0.6)})`,
+                    ['<=', ['get', 'populacao'], 50], `rgba(255, 252, 230, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 100], `rgba(255, 250, 205, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 200], `rgba(255, 237, 160, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 500], `rgba(255, 220, 120, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 1000], `rgba(254, 217, 118, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 2000], `rgba(254, 195, 100, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 3000], `rgba(254, 178, 76, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 4000], `rgba(253, 150, 65, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 5000], `rgba(253, 141, 60, ${baseOpacity})`,
+                    ['<=', ['get', 'populacao'], 6000], `rgba(240, 100, 50, ${baseOpacity})`,
+                    `rgba(200, 30, 30, ${baseOpacity})`
+                ]);
             });
         });
     </script>
