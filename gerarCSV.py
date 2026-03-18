@@ -4,11 +4,9 @@ import time
 import geopandas as gpd
 import pandas as pd
 import requests
-import json as _json
 from pathlib import Path
-from shapely.geometry import box as _box, Polygon as _Poly
-from shapely.ops import unary_union as _unary_union
-from shapely.validation import make_valid as _make_valid
+
+#  CAMINHOS
 
 BASE           = Path(__file__).parent
 DADOS          = BASE / "dados"
@@ -21,6 +19,7 @@ MUNICIPIO_NOME = "Cataguases"
 COD_MUNICIPIO  = "3115300"
 CRS_METRICO    = "EPSG:31983"
 
+#  VALIDAÇÃO DOS ARQUIVOS
 for p in [GRADE_SHP, MUNICIPIOS_SHP]:
     if not p.exists():
         pasta = p.parent
@@ -37,7 +36,7 @@ for p in [GRADE_SHP, MUNICIPIOS_SHP]:
                 f"Verifique se a pasta '{pasta}' contém um .shp."
             )
 
-# MUNICÍPIO - polígono de Cataguases
+#  1. MUNICÍPIO - polígono de Cataguases
 print("=" * 55)
 print(" Grade Estatística IBGE 1km² — Cataguases/MG")
 print("=" * 55)
@@ -63,9 +62,14 @@ cataguases = municipios[
 if cataguases.empty:
     raise ValueError(f"Município {MUNICIPIO_NOME} (cód. {COD_MUNICIPIO}) não encontrado.")
 
-print(f"   {MUNICIPIO_NOME} encontrado  |  CRS: {cataguases.crs}")
+print(f"  ✓ {MUNICIPIO_NOME} encontrado  |  CRS: {cataguases.crs}")
 
-# GRADE — recorte pelo município completo (urbano + rural)
+#  2. GRADE município (urbano + rural)
+
+import json as _json
+from shapely.geometry import box as _box, Polygon as _Poly
+from shapely.ops import unary_union as _unary_union
+
 print("\n[2/5] Carregando grade 1km² para o município inteiro...")
 
 grade = gpd.read_file(GRADE_SHP, bbox=tuple(cataguases.total_bounds))
@@ -82,12 +86,12 @@ poligono_municipio = cataguases.union_all()
 grade_m_temp       = grade.to_crs(CRS_METRICO)
 centroides_raw     = grade_m_temp.geometry.centroid.to_crs("EPSG:4674")
 grade_cat          = grade[centroides_raw.within(poligono_municipio)].copy()
-print(f"   Células no município de {MUNICIPIO_NOME}: {len(grade_cat):,}")
+print(f"  ✓ Células no município de {MUNICIPIO_NOME}: {len(grade_cat):,}")
 
 if grade_cat.empty:
     raise ValueError("Nenhuma célula encontrada. Verifique os CRS dos shapefiles.")
 
-# Classificação urbana/rural via perímetro OSM (Overpass)
+# Classificação urbana/rural via perímetro OSM
 print("\n  Buscando perímetro urbano no OSM para classificar zona...")
 
 OVERPASS_URL   = "https://overpass-api.de/api/interpreter"
@@ -120,9 +124,10 @@ try:
             if len(coords) >= 3:
                 poligonos.append(_Poly(coords))
     if poligonos:
+        from shapely.validation import make_valid as _make_valid
         poligonos = [_make_valid(p) for p in poligonos]
         poligono_urbano = _unary_union(poligonos)
-        print(f"   Perímetro urbano OSM obtido ({len(poligonos)} polígono(s))")
+        print(f"  ✓ Perímetro urbano OSM obtido ({len(poligonos)} polígono(s))")
 except Exception as e:
     print(f"  Aviso: OSM falhou ({e}). Usando bounding box de fallback.")
 
@@ -130,7 +135,6 @@ if poligono_urbano is None or poligono_urbano.is_empty:
     poligono_urbano = BBOX_URBANA
     print("  Usando bounding box urbana padrão.")
 
-# CRS da grade para o polígono urbano
 urbano_gdf = gpd.GeoDataFrame(geometry=[poligono_urbano], crs="EPSG:4326")
 if urbano_gdf.crs != grade_cat.crs:
     urbano_gdf = urbano_gdf.to_crs(grade_cat.crs)
@@ -147,9 +151,9 @@ grade_cat["zona"] = centroides_cat.within(pol_urbano_m).map(
 )
 n_urb = (grade_cat["zona"] == "urbana").sum()
 n_rur = (grade_cat["zona"] == "rural").sum()
-print(f"   Células urbanas: {n_urb}  |  rurais: {n_rur}")
+print(f"  ✓ Células urbanas: {n_urb}  |  rurais: {n_rur}")
 
-#  CENTRÓIDE em lat/lon (WGS84)
+#  3. CENTRÓIDES em lat/lon
 print("\n[3/5] Calculando centróides...")
 
 grade_m      = grade_cat.to_crs(CRS_METRICO)
@@ -163,14 +167,15 @@ grade_cat = grade_cat.copy()
 grade_cat["lat_centroide"] = centroides_geo.geometry.y.values
 grade_cat["lon_centroide"] = centroides_geo.geometry.x.values
 grade_cat["area_km2"]      = (grade_m.geometry.area / 1_000_000).round(4).values
-print("   Centróides calculados")
+print("  ✓ Centróides calculados")
 
-#  BAIRRO via OpenStreetMap
+#  4. BAIRROS OpenStreetMap Nominatim
+
 print("\n[4/5] Buscando nomes de bairros via OpenStreetMap...")
 print("  (1 consulta por célula com ~1s de intervalo — respeita limite da API)")
 print("  Na 2ª execução em diante usa cache local e termina instantaneamente.\n")
 
-# Carrega cache
+# Carrega cache existente
 cache = {}
 if CACHE_CSV.exists():
     try:
@@ -187,7 +192,7 @@ if CACHE_CSV.exists():
 
 HEADERS = {"User-Agent": "pesquisaIF-cataguases/1.0 (estudo academico)"}
 
-# Rótulo tipo_local
+# rótulo para tipo_local
 TIPO_LABEL = {
     "neighbourhood" : "bairro",
     "suburb"        : "bairro",
@@ -245,7 +250,7 @@ for i, (_, row) in enumerate(grade_cat.iterrows(), 1):
 grade_cat["bairro"]     = bairros
 grade_cat["tipo_local"] = tipos
 
-# vizinho mais próximo
+# substitui "Cataguases" pelo vizinho mais próximo quando o bairro não é identificado
 SEM_BAIRRO = {"Cataguases", "N/D", ""}
 
 mascara_sem = grade_cat["bairro"].isin(SEM_BAIRRO) | grade_cat["bairro"].isna()
@@ -254,7 +259,6 @@ n_sem = mascara_sem.sum()
 if n_sem > 0:
     print(f"\n  Preenchendo {n_sem} célula(s) sem bairro pelo vizinho mais próximo...")
 
-    # Centróide
     grade_m2 = grade_cat.copy()
     pts_wgs = gpd.GeoSeries(
         gpd.points_from_xy(grade_cat["lon_centroide"], grade_cat["lat_centroide"]),
@@ -262,7 +266,7 @@ if n_sem > 0:
     ).to_crs(CRS_METRICO)
     grade_m2 = gpd.GeoDataFrame(grade_cat.copy(), geometry=pts_wgs, crs=CRS_METRICO)
 
-    # Células com bairro real
+    # Células COM bairro real
     tem_bairro = grade_m2[~mascara_sem].copy()
 
     if not tem_bairro.empty:
@@ -280,7 +284,7 @@ if n_sem > 0:
             grade_cat.loc[idx, "bairro"]     = bairro_vizinho
             grade_cat.loc[idx, "tipo_local"] = tipo_vizinho
 
-        print(f"   {n_sem} célula(s) preenchida(s) pelo vizinho mais próximo")
+        print(f"  ✓ {n_sem} célula(s) preenchida(s) pelo vizinho mais próximo")
     else:
         print("  Aviso: nenhuma célula com bairro real encontrada para usar como referência.")
 
@@ -290,10 +294,9 @@ rows_cache = [
     for (lat, lon), v in cache.items()
 ]
 pd.DataFrame(rows_cache).to_csv(CACHE_CSV, index=False)
-print(f"\n   Cache salvo: {CACHE_CSV.name}")
+print(f"\n  ✓ Cache salvo: {CACHE_CSV.name}")
 
-# MONTAR E SALVAR CSV
-
+#  5. MONTAR E SALVAR CSV
 print("\n[5/5] Gerando CSV...")
 
 POP_COL = "TOTAL"
@@ -329,16 +332,16 @@ csv_df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8-sig")
 
 #  RESUMO FINAL
 print("\n" + "═" * 55)
-print(f"  Arquivo salvo: dados/grade_cataguases.csv")
-print(f"  Células       : {len(csv_df):,}")
-print(f"       Urbanas  : {(csv_df['zona']=='urbana').sum():,}")
-print(f"       Rurais   : {(csv_df['zona']=='rural').sum():,}")
-print(f"  População     : {csv_df['populacao'].sum():,}")
-print(f"  Domicílios    : {csv_df['domicilios'].sum():,}")
-print(f"  Células       : {len(csv_df):,} ({len(csv_df)} km² aprox.)")
+print(f"  ✅  Arquivo salvo: dados/grade_cataguases.csv")
+print(f"  📦  Células       : {len(csv_df):,}")
+print(f"       🏙️  Urbanas   : {(csv_df['zona']=='urbana').sum():,}")
+print(f"       🌿  Rurais   : {(csv_df['zona']=='rural').sum():,}")
+print(f"  👥  População     : {csv_df['populacao'].sum():,}")
+print(f"  🏠  Domicílios    : {csv_df['domicilios'].sum():,}")
+print(f"  📦  Células       : {len(csv_df):,} ({len(csv_df)} km² aprox.)")
 n_bairros = csv_df[csv_df["bairro"] != "N/D"]["bairro"].nunique()
 n_nd      = (csv_df["bairro"] == "N/D").sum()
-print(f"  Bairros       : {n_bairros} distintos  ({n_nd} células sem nome)")
+print(f"  🏘️   Bairros       : {n_bairros} distintos  ({n_nd} células sem nome)")
 print("═" * 55)
 print("\nPrimeiras linhas do CSV:")
 print(csv_df.head(8).to_string(index=False))
