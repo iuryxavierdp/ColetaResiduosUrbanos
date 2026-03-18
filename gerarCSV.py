@@ -12,7 +12,7 @@ from shapely.validation import make_valid as _make_valid
 
 BASE           = Path(__file__).parent
 DADOS          = BASE / "dados"
-GRADE_SHP      = DADOS / "BR1KM_20251002"     / "BR1KM_20251002.shp"
+GRADE_SHP      = DADOS / "BR1KM_20251002"     / "BR1KM.shp"
 MUNICIPIOS_SHP = DADOS / "BR_Municipios_2022" / "BR_Municipios_2022.shp"
 OUTPUT_CSV     = DADOS / "grade_cataguases.csv"
 CACHE_CSV      = DADOS / "_cache_bairros.csv"
@@ -37,7 +37,7 @@ for p in [GRADE_SHP, MUNICIPIOS_SHP]:
                 f"Verifique se a pasta '{pasta}' contém um .shp."
             )
 
-# MUNICÍPIO — polígono de Cataguases
+# MUNICÍPIO - polígono de Cataguases
 print("=" * 55)
 print(" Grade Estatística IBGE 1km² — Cataguases/MG")
 print("=" * 55)
@@ -63,7 +63,7 @@ cataguases = municipios[
 if cataguases.empty:
     raise ValueError(f"Município {MUNICIPIO_NOME} (cód. {COD_MUNICIPIO}) não encontrado.")
 
-print(f"  ✓ {MUNICIPIO_NOME} encontrado  |  CRS: {cataguases.crs}")
+print(f"   {MUNICIPIO_NOME} encontrado  |  CRS: {cataguases.crs}")
 
 # GRADE — recorte pelo município completo (urbano + rural)
 print("\n[2/5] Carregando grade 1km² para o município inteiro...")
@@ -82,7 +82,7 @@ poligono_municipio = cataguases.union_all()
 grade_m_temp       = grade.to_crs(CRS_METRICO)
 centroides_raw     = grade_m_temp.geometry.centroid.to_crs("EPSG:4674")
 grade_cat          = grade[centroides_raw.within(poligono_municipio)].copy()
-print(f"  ✓ Células no município de {MUNICIPIO_NOME}: {len(grade_cat):,}")
+print(f"   Células no município de {MUNICIPIO_NOME}: {len(grade_cat):,}")
 
 if grade_cat.empty:
     raise ValueError("Nenhuma célula encontrada. Verifique os CRS dos shapefiles.")
@@ -122,7 +122,7 @@ try:
     if poligonos:
         poligonos = [_make_valid(p) for p in poligonos]
         poligono_urbano = _unary_union(poligonos)
-        print(f"  ✓ Perímetro urbano OSM obtido ({len(poligonos)} polígono(s))")
+        print(f"   Perímetro urbano OSM obtido ({len(poligonos)} polígono(s))")
 except Exception as e:
     print(f"  Aviso: OSM falhou ({e}). Usando bounding box de fallback.")
 
@@ -147,7 +147,7 @@ grade_cat["zona"] = centroides_cat.within(pol_urbano_m).map(
 )
 n_urb = (grade_cat["zona"] == "urbana").sum()
 n_rur = (grade_cat["zona"] == "rural").sum()
-print(f"  ✓ Células urbanas: {n_urb}  |  rurais: {n_rur}")
+print(f"   Células urbanas: {n_urb}  |  rurais: {n_rur}")
 
 #  CENTRÓIDE em lat/lon (WGS84)
 print("\n[3/5] Calculando centróides...")
@@ -163,7 +163,7 @@ grade_cat = grade_cat.copy()
 grade_cat["lat_centroide"] = centroides_geo.geometry.y.values
 grade_cat["lon_centroide"] = centroides_geo.geometry.x.values
 grade_cat["area_km2"]      = (grade_m.geometry.area / 1_000_000).round(4).values
-print("  ✓ Centróides calculados")
+print("   Centróides calculados")
 
 #  BAIRRO via OpenStreetMap
 print("\n[4/5] Buscando nomes de bairros via OpenStreetMap...")
@@ -280,7 +280,7 @@ if n_sem > 0:
             grade_cat.loc[idx, "bairro"]     = bairro_vizinho
             grade_cat.loc[idx, "tipo_local"] = tipo_vizinho
 
-        print(f"  ✓ {n_sem} célula(s) preenchida(s) pelo vizinho mais próximo")
+        print(f"   {n_sem} célula(s) preenchida(s) pelo vizinho mais próximo")
     else:
         print("  Aviso: nenhuma célula com bairro real encontrada para usar como referência.")
 
@@ -290,7 +290,7 @@ rows_cache = [
     for (lat, lon), v in cache.items()
 ]
 pd.DataFrame(rows_cache).to_csv(CACHE_CSV, index=False)
-print(f"\n  ✓ Cache salvo: {CACHE_CSV.name}")
+print(f"\n   Cache salvo: {CACHE_CSV.name}")
 
 # MONTAR E SALVAR CSV
 
